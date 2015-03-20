@@ -5,6 +5,9 @@
     <title>Information Modelling</title>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="js\data.js"></script>
+    <script type="text/javascript" src="js\talulali.github.io.js"></script>
   </head>
   <body>
     <div class="container">
@@ -37,8 +40,8 @@
           <img class="icon icons8-Key" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADcUlEQVRoQ+2ZQVYaQRBAq3rMJpuwyXvCJnqC4AkiEbIVTxCJkK3mBNETRLcZ89QTyDpjHngCuYGugPeyIRuzELryusMQBmfonp6eUfKcDYupKvp3VXVX1SDEeAqeuwmIVQJYQaIcIBalOlGHEAfy13Ga/bcfLmOYtSKKKivLrZMVNhp9BoBtlezU+wEgHt4ydjQo1QYx9IxFI0FyrZPcc853gWjf2DqABOpu7BwksKGlGgoivTAcnk9CR8tUtBABNH87Ti1N79wDefn9a/EZYy0AyCVcf1CdqHO7tFRKCyYAMs6HK+sQPlKKMBMQmRPDYSsinM4AoMmJBsDYCiNaB4D3hh477ZbrNUPdSLUJSMFz9wFRnE7/HqJfd0TrP9997MxaWPbcdQbQBMQXcRfFEWv9jZ3TuHrz5CXIOKSuZwXvOF8Lg/DlJAyiyKdYDwHc9Mr11VhKCmEJUrg4FrszGypn3XJdeXfkPbeNiG/iLoqIPvUqjcO4elHyPgiFCGx1y/Wm6o9CQ1KlJN4TdbqVxpqOqI4MFi6OqwBwPivMiUr9SqOtMhKlr9IT77njrPZLtRsdWZWMAAkLK9BNSGOPSKfYCy+cE+NaOVLw3CvjCoDooFtpJCmBJo7CeQtRhdfyj2/bjOhE5fao90R02as0xJ2U+BGhFZbovuEBJ9oKy5UxxJckVUCWIBKIAMQR2wbOO8BYETivGofT1N7bBhG39uvEvjUwYBXE9EIzWPc9FQI46pXrezZsYf7i+BABdm0Yi2tD94jXsYum9ZKOcZWM1QtR/FnBc0VLGruKVS103nub+SH+52+tFVbCJ1mlhq7NsJqAjJuqmyy9kgrI/+CVQM+e99wmIm5qRIY1EVueCYDIEBuNROme6QVpA+beOGhRYUIHdGMY0YaaTkqMQi+JZ+bOfkWFi0T7CPDKaGUGSqYwyiG2WEvec/cQUQwitHJHXHbEmBz3mPQrJjBaIP7GirERDodVBMgRQLAhQhSfFkSZ357uw02br7gwsUAMIkWqZAGTCUgWMJmBpA2TKUiaMJmDpAXzICBpwDwYiA+DnAcG5QhQVLUTYUfzg4KEHee6w5BZmIUFEZswDbPQINMwCw/iwzw6EPF53EEMfBrX+bz36EDCDgDFoF2qPIGYVsImek8eMdm1NHV0+pmFyBGd2uwPoY7JK7WKgxAAAAAASUVORK5CYII=" width="50" height="50">
           <h2>Opening the app</h2>
           <hr class="short">
-          <p>Sign up</p>
-          <p>Scenario #2</p>
+          <button type="button" id="1" onclick="displayScenarioDetails(this.id)">Signing up</button><br>
+          <button type="button" id="2" onclick="displayScenarioDetails(this.id)">Signing out</button>
         </div>
         <div class="col-md-4">
           <!-- Paper Plane icon by Icons8 -->
@@ -64,9 +67,9 @@
       <div class="row text-left margin-top">
         <div class="col-md-4">
           <p>Scenario #</p>
-          <h2 class="text-left">Title</h2>
+          <h2 class="text-left" id="title">Title</h2>
           <hr class="short">
-          <p>Content</p>
+          <p id="content">Content</p>
         </div>
         <div class="col-md-8">
           <img class="img-responsive" src="http://placebear.com/1200/2000" alt"Hero bear">

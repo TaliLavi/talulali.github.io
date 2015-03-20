@@ -1,6 +1,6 @@
 body {
 	font-family: 'lato', sans-serif;
-	color: #747704;
+	color: #5d5d5d;
 	font-weight: 300;
 }
 
@@ -34,14 +34,25 @@ hr {
 }
 
 h1 {
-    text-align: left;
     margin-bottom: 20px;
-    color: #1abc9c;
+    color: #f48f2a;
+    font-weight: 700;
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
+}
+
+h4 {
+    color: #f48f2a;
+    font-weight: 700;
+}
+
+#title {
+    font-size: 45px;
+    color: #1abc9c;
+    font-weight: 700;
 }
 
 p {
@@ -60,9 +71,6 @@ p {
 button {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 17px;
+    padding: 5px 20px 5px 20px;
 }
-
-/*img {*/
-    /*border-color: #1abc9c;*/
-    /*border: 20px;*/
-/*}*/

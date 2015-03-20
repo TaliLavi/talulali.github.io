@@ -13,7 +13,7 @@ var scenarios = [
     },
     {
         "scenarioTitle":"Posting a new message",
-        "scenarioContent":"Dr. O'Neal has just arrived at her office, after completing a lecture about ***** in her full-time ****** class. During class she told the students to read ******* by ******* for next class, and promised them to send a link to the article. In order to send them the link, she reaches for her iPhone and opens the DIT's grangeMobile app. Since the app recognizes her as a lecturer, she is able to see the Send New Message button. She clicks it, and in the following page she selects the relevant module and class, and types a message containing the promised link to the article. Finally, she presses the submit button. She receives a confirmation indication and her students receive a push notification prompting them to view the new message."
+        "scenarioContent":"Dr. O'Neal has just arrived at her office, after completing giving a lecture to her full-time Reporting Human Rights class. During class she told the students to read ******* by ******* for next class, and promised them to send a link to the article. In order to send them the link, she reaches for her iPhone and opens the DIT's grangeMobile app. Since the app recognizes her as a lecturer, she is able to see the Send New Message button. She clicks it, and in the following page she selects the relevant module and class, and types a message containing the promised link to the article. Finally, she presses the submit button. She receives a confirmation indication and her students receive a push notification prompting them to view the new message."
     },
     {
         "scenarioTitle":"Editing an existing message",

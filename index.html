@@ -48,16 +48,16 @@
           <img class="icon icons8-Paper-Plane" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAExUlEQVRoQ9VZwVLjRhDtlpSqZC/rS6qwL+EPlv2CQMXONc4XLFTsXDFfgPcLMNe1UrBfELjGTsF+wcIXZHMxVOUQuHgPa6lTLSTXaDSjmZEwMTqBpzXuN93vdU8b4Zk+G9PwDQIMEaARIx7gc8PRmoZdAjhCgE3B97tnA2RjMt5GxEME2C4cPtH92gPZuDjZxCjiCHR12UNE52sLhAF4UXQIALum9Cei9eNI4+Kk8SKO94FoAAANVRoB4kvx8y9x/HqtItKchvusRFoAAKM4CE69KPprCYToftbpN9YCiCClohKJh/4+9v3h7c7eJ1YtAPg9W2R+3HT63f8VCCuRB3AEiFsqHhDRBwqCXQaQrTen4QgB9gUgBzedPn/29M+3f7zbCjyPlagopQCQAAAY3nb6l7J3rcn4owic+fHPj79ePSkQkxIRwN+EOLz94ZdT1fEmQhBF/8r84P+fBAg78M1icYiIrETFh+g+9ryBCgC/e7ezd8cv6fixciBWUgowmgfBKHM2Q8np9xVid9bps4olj44fKwVio0Rz3x/IAFKHmcwHn31/S1zX8WMlQDRNnZDWdE5BMBCVKFtMUjCKTrgdiYl2RLKX8eNRgZQ2dQYlYkcSKUbk+tAAordiSpn48ShATE0dKxECDGbt3plO6JuT8ZEgBNezdq9QV8r4UQtIXSnlL08JfbKsC6xeQbClSrsyflQCUkeJxIio+qoYcU8nwbr6ke3pVEdKmzrmAcDxZ98fqpRIRWgp1d7P2j1ly15WP5yA2Ehp1tTpeFAgtGDIPJKlVoqesr8SbUojYtXUaXoiGZBE6Nxy1i/pDsHEDy1HTE0dAFzHRANVUyc7UyC0bKCQWtHEVD+UqfUYSmQitLjOXe5Np6/sgDM7G34sI2LT1AHASC5SulQQK7SWMyVS68qPBMjGn7/tekRHyuslWxC9VTV1OgdzFbqM+QA/lxXJZUQ09w95a2xNQ+7vi5f8BCYO5553XCanudPLV2h9MACOb9o9dUsvvGXLj8TV5jT8hADflR4e0RUhni7i+APfxpwJnX/heu772zaHY8uPBEiiUIhDRPypPBMeVgmAgV8C0dms0z83FUl5T5PUVuHHkuz8B4fx6zjuekTbQNSVZ0c2IE02PEjjQYHJzpUfOSDy5mlbzqMXHrWUp56FZzZSK27jwo9SIOKmSau+WDyAQvzewu+8CdH9PAg2bXixjIZmfqX7bqemMUvBF4vFABB5Lmv1yLc9m5dM9w95D2cgvEFaKy5sHAKiq1mn/9rKVjCy6a/EPSsBKeSv2cvTWbu3ZzZ7sHDlhzVHVA60piHZOpbaWYNxqR+ZD5Uiwi+3piEXxlerAOPKj1oRaU7Gl5UUDMAYGVd+1ALSmoyHNsrF9UMBWAumCj9WDyS9NLWmIQ+l30hpqARThR+1gFhIcG4+ZQumCj9WB0RzabIBU4UftYCkyqWU4LLmsAxMVX6sBEj2m16ZLOvAAMC56vdBG4mvXEd484IEOzSHGjD8g87yturS9j8qENfmUANmGQCXS1gtILlaYphP6dJDCyb9/dwmrWpzJB2+XfJ93maY4ALGhmu1u1/bU3KxkyOjm8zr9qyVWi6O2tgmxZBoFxDPdJN53T7/AWPkmYq35pjMAAAAAElFTkSuQmCC" width="50" height="50">
           <h2>Messaging</h2>
           <hr class="short">
-          <p>Scenario #1</p>
-          <p>Scenario #2</p>
+          <button type="button" id="3" onclick="displayScenarioDetails(this.id)">Posting a new message</button><br>
+          <button type="button" id="4" onclick="displayScenarioDetails(this.id)">Editing an existing message</button>
         </div>
         <div class="col-md-4">
           <!-- Location Filled icon by Icons8 -->
           <img class="icon icons8-Location-Filled" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADnElEQVRoQ+VZsVLbQBDdtZwiaWKKzICamC8IfEHswUob+ILgQUob+ALgCwJtbAbyBYE2NmPyBThfEKeRmUkR0ZjCtjZzisx4PJa1qzu5SK5ihvPtvn37dvdOCP/IQtM47FbjLSBuE0AZiUqAuBHZIOoSYoAAPSC69B3vyqRtI0BKnfPSs/H4IwBsA0CJ6WAAAJcDyzoIqnX1t9bSBmJfnx0C0b4AwKzDASCe+Ft7xzpIMgOJWBiNOo+po+NFnHqDYrGalZ1MQF58/bTxpFDoaLAwFzYB9EZhuPPrzfuuNC5iILEefpgGMXFcgXmwrE0pM2IgdqtxayydksJO1PUdb1PCigiI3WocAeKhxEDmvUTHvuMdcX/PBpJ3Ss1xOBhY1jo3xdhA7HbzAgDecSNkaN9nv+bucs6SAPmdl8AXOBr4NXfFGBC73VQd+wvnwKnqczoKw4tJKY1LtmqcUlZ3/Jp7mWabxYgorYjuh0SVpF4QAUK8AcTnac5FfRLgtF9zVQAWLhaQtVbjBhFfpx2m/j8Mw820hhazc8s5j4i+9R2vkraXBYTbO7jRU06xWWb2FB6QdpPSIsJlY3KOhBW/5qb6mbohjh4LCMfgdEBsZoA45/5fQLhi5whdmlpGxc4FkofYieiq73iqj+mXX8mwyGFFInRgDo8sjaxen+0WiM7TohL/PxiGYXVhQ5Rdysx19njyVbOWZF0Mw/B0ZkT5AACsIXBiaGBZK5wJmMVIXILV9fOVBInuXq7QlR02kLV28wQBVESXtojooO94JxyDbCCrnfNyYTxWd/WlrdCy1u+q9R7HIBvIstNLklai1FKbhdWLE8jEPSFi/W5rT91KWUvESPwo1+PeJVgezNlEAD/7Nbcs+b0IiDp4KaJnNsFpoGIguYue6H5QLJY5vUMLSCz6/F5UMrAhFvskArmxkpGNzEAiVvJ4dczIhhYQ0xVMVaoHy9qQamOSJWKxTwtsrdXYR0T1pcrEYk25SYa0gJjq9tIuPg+MNhDRJSkhnJKZKjdGtJukhsC1+8hsVJTwn47HXQR4KRTLd7/m/v18rbm0U+uxt7QalQKi+q7IXpz7PfcwY0DEvcVQShkpv/OiZbebqVdiE1Vq1rZRRtTh0fgyGnUTR32NMWRRmhkHEveWxA9DIVH1zvFuuLnP3ZcLkMSSbFgXxstvUtSmn1q5T59cBnLXyLSB+GEvSqOBZVWyDoQccLmlFse4yT1/AMKV0EIBPOliAAAAAElFTkSuQmCC" width="50" height="50">
           <h2>Viewing Location</h2>
           <hr class="short">
-          <p>Scenario #1</p>
-          <p>Scenario #2</p>
+          <button type="button" id="5" onclick="displayScenarioDetails(this.id)">Viewing schedule for the semester</button><br>
+          <button type="button" id="6" onclick="displayScenarioDetails(this.id)">Viewing location for specific class</button>
         </div>
       </div>
 
@@ -72,7 +72,7 @@
           <p id="content">Content</p>
         </div>
         <div class="col-md-8">
-          <img class="img-responsive" src="http://placebear.com/1200/2000" alt"Hero bear">
+          <img class="img-responsive" id="diagram-img" src="images/0.jpg" alt"Entity Diagram">
         </div>
       </div>
 
